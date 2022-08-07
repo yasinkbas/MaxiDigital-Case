@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "uilab",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yasinkbas/UILab",
+      "state" : {
+        "revision" : "c19c59ff0ea281db8b48aca92481d9e466f76390",
+        "version" : "0.3.4"
+      }
+    }
+  ],
+  "version" : 2
+}

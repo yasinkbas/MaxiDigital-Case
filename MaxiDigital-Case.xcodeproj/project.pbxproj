@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B6629949AA09856E6FDD33 /* FAQListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A9229AD43E79A2E7E1CE82 /* FAQListHeaderView.swift */; };
+		0317E3C76ADC2C102367630F /* MockFAQListInteractor.swift in Resources */ = {isa = PBXBuildFile; fileRef = 1074004D9729370E5E872542 /* MockFAQListInteractor.swift */; };
+		05ECEB1EF062581FBE71FA81 /* CommonKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5BD161FF67622DCBAB5E55 /* CommonKit.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		086DAEB00E203F9C2F19798B /* FAQListHeaderCellPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1BDF7AFCA2302FF4A70776 /* FAQListHeaderCellPresenter.swift */; };
+		1581C642E1545864A046431C /* FAQListPresenterTests.swift in Resources */ = {isa = PBXBuildFile; fileRef = D39BF1879D5882B293D3E767 /* FAQListPresenterTests.swift */; };
+		256E6ABB6A53DC60F3CBA73F /* test.swift in Resources */ = {isa = PBXBuildFile; fileRef = A481249923D1AB8227BA0D49 /* test.swift */; };
+		331A9EFAA690EC656EF2DF40 /* TuistBundle+MaxiDigital-Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = A006CBB880E167CA86781D76 /* TuistBundle+MaxiDigital-Case.swift */; };
+		354EC8133504A6149CDA0505 /* MockFAQListView.swift in Resources */ = {isa = PBXBuildFile; fileRef = 9EBDB87E2CE5F73529016D0F /* MockFAQListView.swift */; };
+		36BAC34F04DE6671EEBE11FA /* FAQListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C799A58AADD29412971A21 /* FAQListCell.swift */; };
+		3990B0818C26A18FF726C1A6 /* MockFAQListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBB7B595D643CE7654DFA1D /* MockFAQListRouter.swift */; };
+		43E8E8CA22F2C7EE66F86795 /* FAQListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39BF1879D5882B293D3E767 /* FAQListPresenterTests.swift */; };
+		4F11075EFFF4E0CED81961FA /* FAQListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E33E5E848F27BA0695A337 /* FAQListPresenter.swift */; };
+		58B4EEA4F7904663CF53CC7C /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A481249923D1AB8227BA0D49 /* test.swift */; };
+		8BDF9E7F5139362887E41C6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CCD09A07B6D3582F517812 /* AppDelegate.swift */; };
+		948B77D87DCBD42CF637A57A /* MockFAQListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1074004D9729370E5E872542 /* MockFAQListInteractor.swift */; };
+		ACDFD2C6C1A9A98A5625969E /* CommonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5BD161FF67622DCBAB5E55 /* CommonKit.framework */; platformFilter = ios; };
+		AD96B989AD42B81E8F227C41 /* TuistBundle+MaxiDigital-CaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B801629096A74E055AFCF8E /* TuistBundle+MaxiDigital-CaseTests.swift */; };
+		AE89C142B13B1CEF00AC3F9A /* MockFAQListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBDB87E2CE5F73529016D0F /* MockFAQListView.swift */; };
+		C019822DE8E2026FA18B2DBA /* MockFAQListRouter.swift in Resources */ = {isa = PBXBuildFile; fileRef = 0CBB7B595D643CE7654DFA1D /* MockFAQListRouter.swift */; };
+		C2A720DF28A0245B00DC1538 /* UILab in Frameworks */ = {isa = PBXBuildFile; productRef = C2A720DE28A0245B00DC1538 /* UILab */; };
+		E0E92C1EB0477BC0E1DAEA33 /* FAQListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB00960BEA38BD2EA9FCA94 /* FAQListViewController.swift */; };
+		E66E1BBD9A635EAEE9B41B29 /* FAQListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E4FCC811EE5EE58A9C0FD3 /* FAQListRouter.swift */; };
+		EA79A3FDD85F25267D6242AD /* TuistAssets+MaxiDigitalCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0D36FCC4381AA35A0AA4A /* TuistAssets+MaxiDigitalCase.swift */; };
+		EBB33DD77AF8F1BC4439C124 /* FAQData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6386EE90B30180A5F61835B5 /* FAQData.swift */; };
+		ECB931C0C574C01D74EF6F5E /* FAQListCellPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C690C47D3C9A6459C2563E4 /* FAQListCellPresenter.swift */; };
+		F6833C832C4DCA72A9AA77D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0557EE0AFD5260E9ED66AA5C /* Assets.xcassets */; };
+		FB88B8F448168370136685E6 /* FAQListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230CB905E7FE38AC66461AA5 /* FAQListInteractor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		193D10503E3B8CE2F46B83B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A091A4852C0F786AD6E5C761 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A44D21E776E41F1ED77BA237;
+			remoteInfo = "MaxiDigital-Case";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C0AD572975D36834F89176D7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF710CCC2C5352265B47063 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				05ECEB1EF062581FBE71FA81 /* CommonKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0557EE0AFD5260E9ED66AA5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CBB7B595D643CE7654DFA1D /* MockFAQListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFAQListRouter.swift; sourceTree = "<group>"; };
+		0D0DA4929749E280926FD50E /* MaxiDigital-CaseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MaxiDigital-CaseTests-Info.plist"; sourceTree = "<group>"; };
+		1074004D9729370E5E872542 /* MockFAQListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFAQListInteractor.swift; sourceTree = "<group>"; };
+		1D5BD161FF67622DCBAB5E55 /* CommonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		230CB905E7FE38AC66461AA5 /* FAQListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQListInteractor.swift; sourceTree = "<group>"; };
+		27C799A58AADD29412971A21 /* FAQListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQListCell.swift; sourceTree = "<group>"; };
+		2FB87CAE509763EA29D65820 /* MaxiDigital_Case.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxiDigital_Case.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF87FD937985C868EAF1532 /* UILab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UILab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A9229AD43E79A2E7E1CE82 /* FAQListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQListHeaderView.swift; sourceTree = "<group>"; };
+		5B801629096A74E055AFCF8E /* TuistBundle+MaxiDigital-CaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+MaxiDigital-CaseTests.swift"; sourceTree = "<group>"; };
+		5CC0D36FCC4381AA35A0AA4A /* TuistAssets+MaxiDigitalCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+MaxiDigitalCase.swift"; sourceTree = "<group>"; };
+		5DB00960BEA38BD2EA9FCA94 /* FAQListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQListViewController.swift; sourceTree = "<group>"; };
+		6386EE90B30180A5F61835B5 /* FAQData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQData.swift; sourceTree = "<group>"; };
+		7C690C47D3C9A6459C2563E4 /* FAQListCellPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQListCellPresenter.swift; sourceTree = "<group>"; };
+		94E4FCC811EE5EE58A9C0FD3 /* FAQListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQListRouter.swift; sourceTree = "<group>"; };
+		9EBDB87E2CE5F73529016D0F /* MockFAQListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFAQListView.swift; sourceTree = "<group>"; };
+		A006CBB880E167CA86781D76 /* TuistBundle+MaxiDigital-Case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+MaxiDigital-Case.swift"; sourceTree = "<group>"; };
+		A1E33E5E848F27BA0695A337 /* FAQListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQListPresenter.swift; sourceTree = "<group>"; };
+		A481249923D1AB8227BA0D49 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		BA64A7EA5066C01051B556E9 /* MaxiDigital-Case-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MaxiDigital-Case-Info.plist"; sourceTree = "<group>"; };
+		C4CCD09A07B6D3582F517812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9ECDEF5D490B0F0865EDDFA /* MaxiDigital_CaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaxiDigital_CaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39BF1879D5882B293D3E767 /* FAQListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQListPresenterTests.swift; sourceTree = "<group>"; };
+		FA1BDF7AFCA2302FF4A70776 /* FAQListHeaderCellPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQListHeaderCellPresenter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17D0627AE4779CC051A4C582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A720DF28A0245B00DC1538 /* UILab in Frameworks */,
+				ACDFD2C6C1A9A98A5625969E /* CommonKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B112149D16B01EF38285DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F99831169B766DEB47E16E7 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F71438C2FCCE00F9C3FA23F6 /* FAQList */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2EDCA13F4AB6C724AE474FC6 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				BA64A7EA5066C01051B556E9 /* MaxiDigital-Case-Info.plist */,
+				0D0DA4929749E280926FD50E /* MaxiDigital-CaseTests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		64120D57C5A1384887F579AD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				EB423E147550248C2439A8B6 /* FAQList */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		798B7E42B23E3DC913E5898F /* FAQListHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				FA1BDF7AFCA2302FF4A70776 /* FAQListHeaderCellPresenter.swift */,
+				47A9229AD43E79A2E7E1CE82 /* FAQListHeaderView.swift */,
+			);
+			path = FAQListHeaderView;
+			sourceTree = "<group>";
+		};
+		88CE0F9B2DCC6FAB108532EC /* MaxiDigital-Case */ = {
+			isa = PBXGroup;
+			children = (
+				64120D57C5A1384887F579AD /* Screens */,
+				C4CCD09A07B6D3582F517812 /* AppDelegate.swift */,
+				0557EE0AFD5260E9ED66AA5C /* Assets.xcassets */,
+			);
+			path = "MaxiDigital-Case";
+			sourceTree = "<group>";
+		};
+		974EB3968D363F33E4BC6DD1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5CC0D36FCC4381AA35A0AA4A /* TuistAssets+MaxiDigitalCase.swift */,
+				A006CBB880E167CA86781D76 /* TuistBundle+MaxiDigital-Case.swift */,
+				5B801629096A74E055AFCF8E /* TuistBundle+MaxiDigital-CaseTests.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B8725D460132618D418A047E /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F99831169B766DEB47E16E7 /* Screens */,
+				A481249923D1AB8227BA0D49 /* test.swift */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		CF7C75582EA7BD97F22A4999 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				DDCF23DAF5F08202FB0FB1C7 /* Derived */,
+				88CE0F9B2DCC6FAB108532EC /* MaxiDigital-Case */,
+				B8725D460132618D418A047E /* UnitTests */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		D4FC75F7EAD2A02E9BDC7521 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D5BD161FF67622DCBAB5E55 /* CommonKit.framework */,
+				2FB87CAE509763EA29D65820 /* MaxiDigital_Case.app */,
+				C9ECDEF5D490B0F0865EDDFA /* MaxiDigital_CaseTests.xctest */,
+				3BF87FD937985C868EAF1532 /* UILab.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDCF23DAF5F08202FB0FB1C7 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				2EDCA13F4AB6C724AE474FC6 /* InfoPlists */,
+				974EB3968D363F33E4BC6DD1 /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		E7C6C97E91066E7C94C77EF0 = {
+			isa = PBXGroup;
+			children = (
+				CF7C75582EA7BD97F22A4999 /* Project */,
+				F7571F6BA415930352ACF8D9 /* Frameworks */,
+				D4FC75F7EAD2A02E9BDC7521 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB423E147550248C2439A8B6 /* FAQList */ = {
+			isa = PBXGroup;
+			children = (
+				FBDD82958BD675CAAB76B2BA /* FAQListCell */,
+				798B7E42B23E3DC913E5898F /* FAQListHeaderView */,
+				6386EE90B30180A5F61835B5 /* FAQData.swift */,
+				230CB905E7FE38AC66461AA5 /* FAQListInteractor.swift */,
+				A1E33E5E848F27BA0695A337 /* FAQListPresenter.swift */,
+				94E4FCC811EE5EE58A9C0FD3 /* FAQListRouter.swift */,
+				5DB00960BEA38BD2EA9FCA94 /* FAQListViewController.swift */,
+			);
+			path = FAQList;
+			sourceTree = "<group>";
+		};
+		F71438C2FCCE00F9C3FA23F6 /* FAQList */ = {
+			isa = PBXGroup;
+			children = (
+				D39BF1879D5882B293D3E767 /* FAQListPresenterTests.swift */,
+				1074004D9729370E5E872542 /* MockFAQListInteractor.swift */,
+				0CBB7B595D643CE7654DFA1D /* MockFAQListRouter.swift */,
+				9EBDB87E2CE5F73529016D0F /* MockFAQListView.swift */,
+			);
+			path = FAQList;
+			sourceTree = "<group>";
+		};
+		F7571F6BA415930352ACF8D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBDD82958BD675CAAB76B2BA /* FAQListCell */ = {
+			isa = PBXGroup;
+			children = (
+				27C799A58AADD29412971A21 /* FAQListCell.swift */,
+				7C690C47D3C9A6459C2563E4 /* FAQListCellPresenter.swift */,
+			);
+			path = FAQListCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A44D21E776E41F1ED77BA237 /* MaxiDigital-Case */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA54F076113AAB48AE88B49 /* Build configuration list for PBXNativeTarget "MaxiDigital-Case" */;
+			buildPhases = (
+				4B8A3D898B9C0AAD8A9B549C /* Sources */,
+				D2D8BB56DB9BA8D72A3CE0CE /* Resources */,
+				CBF710CCC2C5352265B47063 /* Embed Frameworks */,
+				17D0627AE4779CC051A4C582 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MaxiDigital-Case";
+			packageProductDependencies = (
+				C2A720DE28A0245B00DC1538 /* UILab */,
+			);
+			productName = MaxiDigital_Case;
+			productReference = 2FB87CAE509763EA29D65820 /* MaxiDigital_Case.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E37C84CF8A92A90FAB17747F /* MaxiDigital-CaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64AA7EB5755BBB3F20863B53 /* Build configuration list for PBXNativeTarget "MaxiDigital-CaseTests" */;
+			buildPhases = (
+				BCB9A902C6A677BD602FDC07 /* Sources */,
+				54D7C9135E230B0AF88B314F /* Resources */,
+				C0AD572975D36834F89176D7 /* Embed Frameworks */,
+				24B112149D16B01EF38285DB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA806AA635FC27FB8F399099 /* PBXTargetDependency */,
+			);
+			name = "MaxiDigital-CaseTests";
+			productName = MaxiDigital_CaseTests;
+			productReference = C9ECDEF5D490B0F0865EDDFA /* MaxiDigital_CaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A091A4852C0F786AD6E5C761 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "com.yasinkbas.MaxiDigital-Case";
+				TargetAttributes = {
+					E37C84CF8A92A90FAB17747F = {
+						TestTargetID = A44D21E776E41F1ED77BA237;
+					};
+				};
+			};
+			buildConfigurationList = EC46286A491781E4FBB61799 /* Build configuration list for PBXProject "MaxiDigital-Case" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E7C6C97E91066E7C94C77EF0;
+			packageReferences = (
+				C2A720DD28A0245B00DC1538 /* XCRemoteSwiftPackageReference "UILab" */,
+			);
+			productRefGroup = D4FC75F7EAD2A02E9BDC7521 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A44D21E776E41F1ED77BA237 /* MaxiDigital-Case */,
+				E37C84CF8A92A90FAB17747F /* MaxiDigital-CaseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54D7C9135E230B0AF88B314F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1581C642E1545864A046431C /* FAQListPresenterTests.swift in Resources */,
+				0317E3C76ADC2C102367630F /* MockFAQListInteractor.swift in Resources */,
+				C019822DE8E2026FA18B2DBA /* MockFAQListRouter.swift in Resources */,
+				354EC8133504A6149CDA0505 /* MockFAQListView.swift in Resources */,
+				256E6ABB6A53DC60F3CBA73F /* test.swift in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D8BB56DB9BA8D72A3CE0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6833C832C4DCA72A9AA77D0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B8A3D898B9C0AAD8A9B549C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA79A3FDD85F25267D6242AD /* TuistAssets+MaxiDigitalCase.swift in Sources */,
+				331A9EFAA690EC656EF2DF40 /* TuistBundle+MaxiDigital-Case.swift in Sources */,
+				8BDF9E7F5139362887E41C6C /* AppDelegate.swift in Sources */,
+				EBB33DD77AF8F1BC4439C124 /* FAQData.swift in Sources */,
+				36BAC34F04DE6671EEBE11FA /* FAQListCell.swift in Sources */,
+				ECB931C0C574C01D74EF6F5E /* FAQListCellPresenter.swift in Sources */,
+				086DAEB00E203F9C2F19798B /* FAQListHeaderCellPresenter.swift in Sources */,
+				01B6629949AA09856E6FDD33 /* FAQListHeaderView.swift in Sources */,
+				FB88B8F448168370136685E6 /* FAQListInteractor.swift in Sources */,
+				4F11075EFFF4E0CED81961FA /* FAQListPresenter.swift in Sources */,
+				E66E1BBD9A635EAEE9B41B29 /* FAQListRouter.swift in Sources */,
+				E0E92C1EB0477BC0E1DAEA33 /* FAQListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB9A902C6A677BD602FDC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD96B989AD42B81E8F227C41 /* TuistBundle+MaxiDigital-CaseTests.swift in Sources */,
+				43E8E8CA22F2C7EE66F86795 /* FAQListPresenterTests.swift in Sources */,
+				948B77D87DCBD42CF637A57A /* MockFAQListInteractor.swift in Sources */,
+				3990B0818C26A18FF726C1A6 /* MockFAQListRouter.swift in Sources */,
+				AE89C142B13B1CEF00AC3F9A /* MockFAQListView.swift in Sources */,
+				58B4EEA4F7904663CF53CC7C /* test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA806AA635FC27FB8F399099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MaxiDigital-Case";
+			target = A44D21E776E41F1ED77BA237 /* MaxiDigital-Case */;
+			targetProxy = 193D10503E3B8CE2F46B83B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4207F397EE2DDAB82A238B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57E028487A1BE0816F18745C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		836EF8F9FBC84AD415FD3D19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/MaxiDigital-CaseTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yasinkbas.MaxiDigital-CaseTests";
+				PRODUCT_NAME = MaxiDigital_CaseTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaxiDigital_Case.app/MaxiDigital_Case";
+				TEST_TARGET_NAME = "MaxiDigital-Case";
+			};
+			name = Debug;
+		};
+		AAC3141836FB6D5E52F467CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/MaxiDigital-Case-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yasinkbas.MaxiDigital-Case";
+				PRODUCT_NAME = MaxiDigital_Case;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AE88312CF459899FA8DF69CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/MaxiDigital-Case-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yasinkbas.MaxiDigital-Case";
+				PRODUCT_NAME = MaxiDigital_Case;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C6C3FB22F7CAA81103EBCB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/MaxiDigital-CaseTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yasinkbas.MaxiDigital-CaseTests";
+				PRODUCT_NAME = MaxiDigital_CaseTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaxiDigital_Case.app/MaxiDigital_Case";
+				TEST_TARGET_NAME = "MaxiDigital-Case";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64AA7EB5755BBB3F20863B53 /* Build configuration list for PBXNativeTarget "MaxiDigital-CaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836EF8F9FBC84AD415FD3D19 /* Debug */,
+				C6C3FB22F7CAA81103EBCB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA54F076113AAB48AE88B49 /* Build configuration list for PBXNativeTarget "MaxiDigital-Case" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE88312CF459899FA8DF69CC /* Debug */,
+				AAC3141836FB6D5E52F467CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC46286A491781E4FBB61799 /* Build configuration list for PBXProject "MaxiDigital-Case" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4207F397EE2DDAB82A238B7A /* Debug */,
+				57E028487A1BE0816F18745C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C2A720DD28A0245B00DC1538 /* XCRemoteSwiftPackageReference "UILab" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yasinkbas/UILab";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C2A720DE28A0245B00DC1538 /* UILab */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C2A720DD28A0245B00DC1538 /* XCRemoteSwiftPackageReference "UILab" */;
+			productName = UILab;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A091A4852C0F786AD6E5C761 /* Project object */;
+}
