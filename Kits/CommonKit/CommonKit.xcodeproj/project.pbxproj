@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C26CDB08289FF61A009E2E58 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CDB07289FF61A009E2E58 /* Colors.swift */; };
+		2AABDC80EE7448174C344C56 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE94585372CB9167D3F847C /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6EE94585372CB9167D3F847C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		74ED71613651B31AE5640DB5 /* CommonKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "CommonKit-Info.plist"; sourceTree = "<group>"; };
-		C26CDB07289FF61A009E2E58 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		DE34AA0DB03EFD44472EECE1 /* CommonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -75,7 +75,7 @@
 		AD21D7973993F9F8761987D5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C26CDB07289FF61A009E2E58 /* Colors.swift */,
+				6EE94585372CB9167D3F847C /* Colors.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -125,6 +125,8 @@
 			isa = PBXProject;
 			attributes = {
 				ORGANIZATIONNAME = com.yasinkbas;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = E7762D65C083670F0CA75A04 /* Build configuration list for PBXProject "CommonKit" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -159,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C26CDB08289FF61A009E2E58 /* Colors.swift in Sources */,
+				2AABDC80EE7448174C344C56 /* Colors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
