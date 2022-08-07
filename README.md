@@ -6,6 +6,6 @@ Run this command in folder of project. It installs [tuist](https://tuist.io), fe
 curl -Ls https://install.tuist.io | bash && tuist fetch && tuist generate
 ```
 
-### Screenshots
+### ScreenRecords
 <img src="assets/screenRecording.gif" width="200">
 
