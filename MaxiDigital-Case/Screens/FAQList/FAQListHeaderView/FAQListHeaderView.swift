@@ -30,7 +30,7 @@ class FAQListHeaderCell: UITableViewCell {
         }
     }
     
-    lazy var titleLabel: UILabel = {
+    private lazy var titleLabel: UILabel = {
         let label = UILabel()
         label.text = Configs.TitleLabel.text
         label.font = .systemFont(ofSize: 30)
